@@ -179,6 +179,26 @@ ul {
   width: auto;
 }
 
+/* Brand text next to logo — desktop only */
+.logo-brand {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 300;
+  letter-spacing: 0.12em;
+  color: var(--color-black);
+  white-space: nowrap;
+  transition: color 0.2s;
+}
+
+.logo:hover .logo-brand {
+  color: var(--color-accent);
+}
+
+/* Hide on mobile — hamburger layout must not change */
+@media (max-width: 640px) {
+  .logo-brand { display: none; }
+}
+
 /* Desktop nav links */
 .nav-links {
   display: flex;
