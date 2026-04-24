@@ -754,7 +754,21 @@ a.contact-item:hover {
   margin-top: 4px;
   opacity: 0.55;
 }
+.footer-dev {
+  font-size: 0.7rem;
+  opacity: 0.6;
+  margin-top: 6px;
+}
 
+.footer-dev a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer-dev a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
 
 /* ----------------------------------------------------------------
    11. WHATSAPP FLOATING BUTTON
